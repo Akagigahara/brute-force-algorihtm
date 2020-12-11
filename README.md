@@ -1,1 +1,1 @@
-brute-fore-algorihtm
+brute-fore-algorithm
