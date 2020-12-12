@@ -7,7 +7,8 @@ import java.io.InputStreamReader;
 public class Console
 {
 	
-	public static void main(String[] args) throws IOException {
+	public static void main(String[] args) throws IOException
+	{
 		System.out.println("Please insert password");
 		String input = "invalid";
 		input = reader();
