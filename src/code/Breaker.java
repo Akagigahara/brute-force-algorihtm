@@ -34,7 +34,7 @@ public class Breaker {
 		{
 			char[] change  = subject.toCharArray();
 			char[] temp = change;
-			String str = "°AaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz1234567890.!?/-_#'*+`~=<>|@^";
+			String str = "AaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz1234567890.!?/-_#'*+`~=<>|@^";
 			boolean precededMaxed = false;
 		
 			for(int pos = change.length-1; pos >= 0; pos--)

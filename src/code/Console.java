@@ -9,23 +9,13 @@ public class Console
 	
 	public static void main(String[] args) throws IOException
 	{
-		System.out.println("Please insert password");
-		String input = "invalid";
-		input = reader();
-		if(input.isBlank())
+		for (String x : args)
 		{
-			write("Invalid Input");
-		}
-		
-		else
-		{			
 			long startTime = System.currentTimeMillis();
-			Breaker.codebreaker(input);
+			Breaker.codebreaker(x);
 			long endTime = System.currentTimeMillis();
 			write("Prozess Abgeschlossen. " + milisecConverter(startTime, endTime));
 		}
-		
-		main(args);
 	}
 	
 	public static String reader() throws IOException
